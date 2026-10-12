@@ -124,11 +124,11 @@ function initSearch() {
 
   // All posts index (update this as you add posts)
   const posts = [
-    { title: 'Getting Started with Web Development', url: '/blog/getting-started-web-dev/', date: 'Oct 10, 2026', excerpt: 'An introduction to the fundamentals of modern web development.' },
-    { title: 'Building My First Full-Stack App', url: '/blog/first-fullstack-app/', date: 'Oct 5, 2026', excerpt: 'A walkthrough of building a full-stack web application from scratch.' },
-    { title: 'Understanding APIs: A Beginner\'s Guide', url: '/blog/understanding-apis/', date: 'Sep 28, 2026', excerpt: 'What APIs are, how they work, and how to use them in your projects.' },
-    { title: 'Python Tips for Beginners', url: '/blog/python-tips/', date: 'Sep 20, 2026', excerpt: 'Practical Python tips and tricks to write cleaner, faster code.' },
-    { title: 'My Journey into Open Source', url: '/blog/open-source-journey/', date: 'Sep 12, 2026', excerpt: 'How I made my first open source contribution and what I learned.' },
+    { title: 'Getting Started with Web Development', url: '/mypersonalsite/blog/getting-started-web-dev/', date: 'Oct 10, 2026', excerpt: 'An introduction to the fundamentals of modern web development.' },
+    { title: 'Building My First Full-Stack App', url: '/mypersonalsite/blog/first-fullstack-app/', date: 'Oct 5, 2026', excerpt: 'A walkthrough of building a full-stack web application from scratch.' },
+    { title: 'Understanding APIs: A Beginner\'s Guide', url: '/mypersonalsite/blog/understanding-apis/', date: 'Sep 28, 2026', excerpt: 'What APIs are, how they work, and how to use them in your projects.' },
+    { title: 'Python Tips for Beginners', url: '/mypersonalsite/blog/python-tips/', date: 'Sep 20, 2026', excerpt: 'Practical Python tips and tricks to write cleaner, faster code.' },
+    { title: 'My Journey into Open Source', url: '/mypersonalsite/blog/open-source-journey/', date: 'Sep 12, 2026', excerpt: 'How I made my first open source contribution and what I learned.' },
   ];
 
   function render(query) {
